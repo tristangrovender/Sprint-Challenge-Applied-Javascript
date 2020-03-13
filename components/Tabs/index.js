@@ -16,7 +16,7 @@ axios
         response.data.topics.forEach(topic => {
             entry2.appendChild(Tab(topic));
         });
-        console.log("Response:", response);
+        // console.log("Response:", response);
     })
     .catch(error => {
         console.log("ERROR:", error);
